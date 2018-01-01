@@ -1,0 +1,49 @@
+{
+    "myValet": {
+        "lambda": {
+            "session": {
+                "new": true,
+                "sessionId": "SessionId.c1b0ee17-a062-424c-8163-0b42eb164ca8",
+                "application": {
+                    "applicationId": "amzn1.ask.skill.e63b40dc-b7e6-4a48-a0fd-b5f16dfd8804"
+                },
+                "attributes": {},
+                "user": {
+                    "userId": "amzn1.ask.account.AFUMALOH2THDG5Y4T4QGGG2A6OQRLW7SAYRFGQ24H4NIYPM5G677EWMRFNBLFT5A66BDERDYXVSMXPSV3RENHBBQGIYXS4MAAW5VAENQ6VLC6ZDN7FZYX3JNUEFYDFACM5ZTKDJNQT3ZWH4QNXUHHYGVIFRKEC4KFSNW7YDFXGLRJJHAK7FHDAPCUOIAQIQX2S7TQPWMNV33L6Q"
+                }
+            },
+            "request": {
+                "type": "IntentRequest",
+                "requestId": "EdwRequestId.dadd1648-23f2-4374-9553-cc4e499848b2",
+                "intent": {
+                    "name": "SearchIntent",
+                    "slots": {
+                        "search": {
+                            "name": "search",
+                            "value": "what is the biggest star"
+                        }
+                    }
+                },
+                "locale": "en-US",
+                "timestamp": "2018-01-01T20:13:31Z"
+            },
+            "context": {
+                "AudioPlayer": {
+                    "playerActivity": "IDLE"
+                },
+                "System": {
+                    "application": {
+                        "applicationId": "amzn1.ask.skill.e63b40dc-b7e6-4a48-a0fd-b5f16dfd8804"
+                    },
+                    "user": {
+                        "userId": "amzn1.ask.account.AFUMALOH2THDG5Y4T4QGGG2A6OQRLW7SAYRFGQ24H4NIYPM5G677EWMRFNBLFT5A66BDERDYXVSMXPSV3RENHBBQGIYXS4MAAW5VAENQ6VLC6ZDN7FZYX3JNUEFYDFACM5ZTKDJNQT3ZWH4QNXUHHYGVIFRKEC4KFSNW7YDFXGLRJJHAK7FHDAPCUOIAQIQX2S7TQPWMNV33L6Q"
+                    },
+                    "device": {
+                        "supportedInterfaces": {}
+                    }
+                }
+            },
+            "version": "1.0"
+        }
+    }
+}
